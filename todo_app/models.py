@@ -12,4 +12,4 @@ class Task(models.Model):
         return self.task
 
     class Meta:
-        ordering = ["created_at"]
+        ordering = ["-created_at"]
